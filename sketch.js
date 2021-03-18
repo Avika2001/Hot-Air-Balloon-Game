@@ -12,15 +12,15 @@ function draw() {
   drawSprites();
 }
 
-if(keyDown(LEFT_ARROW)){
+if(keyIsDown(LEFT_ARROW)){
   balloon.x = balloon.x-10;
 }
-else if(keyDown(RIGHT_ARROW)){
+else if(keyIsDown(RIGHT_ARROW)){
   balloon.x = balloon.x+10;
 }
-else if(keyDown(UP_ARROW)){
+else if(keyIsDown(UP_ARROW)){
   balloon.y = balloon.y-10;
 }
-else if(keyDown(DOWN_ARROW)){
+else if(keyIsDown(DOWN_ARROW)){
   balloon.y = balloon.y+10;
 }
